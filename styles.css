@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(green,yellow);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  background: linear-gradient(red,pink);
+  background-repeat: no-repeat;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#clock-image {
+  max-width: 100px;
+}
+
+.clock-face {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.alarm-input input {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(255, 252, 151);
+  border: 1px solid black;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+#ampm {
+  width: 70%;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(255, 252, 151);
+  border: 1px solid black;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+#setAlarm{
+  width: 50%;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  background-color: blue;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.alarms {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+li button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+li button:hover {
+  background-color: #d80000;
+}
